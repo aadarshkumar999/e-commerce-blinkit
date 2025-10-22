@@ -116,6 +116,7 @@ const getOrderProductItems = async({
     addressId,
     paymentId,
     payment_status,
+    totalAmt,
  })=>{
     const productList = []
 
