@@ -51,29 +51,55 @@ const Search = () => {
                      //not in search page
                      <div onClick={redirectToSearchPage} className='w-full h-full flex items-center'>
                         <TypeAnimation
-                                sequence={[
-                                    // Same substring at the start will only be typed out once, initially
-                                    'Search "milk"',
-                                    1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                    'Search "bread"',
-                                    1000,
-                                    'Search "sugar"',
-                                    1000,
-                                    'Search "panner"',
-                                    1000,
-                                    'Search "chocolate"',
-                                    1000,
-                                    'Search "curd"',
-                                    1000,
-                                    'Search "rice"',
-                                    1000,
-                                    'Search "egg"',
-                                    1000,
-                                    'Search "chips"',
-                                ]}
-                                wrapper="span"
-                                speed={50}
-                                repeat={Infinity}
+                              sequence={[
+              // Same substring at the start will only be typed out once, initially
+              'Search "Daru"',
+              2000,
+              'Search "Milk"',
+              1000,
+              'Search "Bread"',
+              1000,
+              'Search "Daru"',
+              2000,
+              'Search "Butter"',
+              1000,
+              'Search "Eggs"',
+              1000,
+              'Search "Rice"',
+              1000,
+              'Search "Sugar"',
+              1000,
+              'Search "Salt"',
+              1000,
+              'Search "Tea"',
+              1000,
+              'Search "Coffee"',
+              1000,
+              'Search "Juice"',
+              1000,
+              'Search "Biscuits"',
+              1000,
+              'Search "Noodles"',
+              1000,
+              'Search "Fruits"',
+              1000,
+              'Search "Vegetables"',
+              1000,
+              'Search "Ice Cream"',
+              1000,
+              'Search "Chips"',
+              1000,
+              'Search "Oil"',
+              1000,
+              'Search "Paneer"',
+              1000,
+              'Search "Chicken"',
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{ fontSize: "1em", display: "inline-block" }}
+            repeat={Infinity}
                             />
                      </div>
                 ) : (
